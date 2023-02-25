@@ -6,6 +6,7 @@
 body {
     background-color: #bd7dbd;
     color: white;	
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -33,3 +34,25 @@ nav li {
     color:  #800080;
     padding: 20px;
  }
+
+ #about-me{
+    width: 60%;
+    line-height: 1.5;
+ }
+
+ h2 {
+    font-weight: 300;
+    margin: 20px;
+ }
+
+.content {
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+#happy {
+    margin-left: 30%;
+    line-height: 3;
+    font-size: 25px;
+    
+}
