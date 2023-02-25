@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #bd7dbd;
+    color: white;	
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+    color:  #800080;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#last-name {
+    color: #ddbbdd;
+}
+
+ #nav-menu {
+    float: right;
+    display: inline-block;
+ }
+ /* how to add bullet points to nav list? */
+nav li {
+    display: inline-block;
+}
+
+ a {
+    text-decoration: none;
+    color:  #800080;
+    padding: 20px;
+ }
