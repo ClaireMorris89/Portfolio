@@ -8,12 +8,12 @@ body {
     color: white;	
     font-family: 'Open Sans', sans-serif;
 }
-
 header {
     padding: 20px;
     background-color: white;
     color:  #800080;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
 }
 
 #last-name {
@@ -23,30 +23,43 @@ header {
  #nav-menu {
     float: right;
     display: inline-block;
+    margin-top: -20px;
  }
- /* how to add bullet points to nav list? */
-nav li {
+
+nav ul li {
     display: inline-block;
+    margin-top:60px
 }
 
- a {
+
+ nav a {
     text-decoration: none;
     color:  #800080;
-    padding: 20px;
+    padding: 40px;
+ }
+
+ h1{
+    font-size: 40px;
+    float: left;
+    border: solid white 2px;
+    padding: 8px 30px; 
+    margin-top: 35px;
  }
 
  #about-me{
     width: 60%;
     line-height: 1.5;
+    margin-top: 80px;
+    margin-left: 50px;
  }
+
 
  h2 {
     font-weight: 300;
-    margin: 20px;
  }
 
 .content {
-    margin-left: 50px;
+    margin-left: 70px;
     font-weight: 600;
 }
 
@@ -55,4 +68,14 @@ nav li {
     line-height: 3;
     font-size: 25px;
     
+}
+
+@media screen and (max-width: 900px){
+}
+
+@media screen and (max-width:768px) {
+    .content {
+        margin-left: 0px;
+        width: 90%;
+    }
 }
