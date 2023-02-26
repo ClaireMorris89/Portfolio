@@ -46,11 +46,16 @@ nav ul li {
     margin-top: 35px;
  }
 
+ .first {
+    display: flex;
+ }
+
+
  #about-me{
-    width: 60%;
+    display: block;
     line-height: 1.5;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: -500px;
  }
 
 
@@ -59,16 +64,27 @@ nav ul li {
  }
 
 .content {
-    margin-left: 70px;
+    margin-top: 10px;
+    margin-left: 40px;
     font-weight: 600;
 }
 
 #happy {
-    margin-left: 30%;
     line-height: 3;
-    font-size: 25px;
+    font-size: 30px;
+    color: #ddbbdd;
+    letter-spacing: .10em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1.2px #800080;
     
 }
+#self-photo {
+    height: 500px;
+    width: 400px;
+    margin: 20px 20px;
+    border: solid white 10px;
+}
+
 
 @media screen and (max-width: 900px){
 }
