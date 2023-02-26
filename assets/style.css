@@ -95,7 +95,7 @@ nav ul li {
     border: solid white 10px;
 }
 
-#my-work {
+#my-work h2 {
     line-height: 1.5;
     margin-left: 35px;
 }
@@ -104,7 +104,16 @@ nav ul li {
     border: double white 3px;
 }
 
+#horiseon {
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
 
+#flex-this {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
 
 @media screen and (max-width: 900px){
 }
