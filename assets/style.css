@@ -62,7 +62,8 @@ nav ul li {
  h2 {
     font-weight: 700;
     border-bottom: white solid 1px;
-    margin-right: 575px
+    margin-right: 575px;
+    margin-bottom: 10px;
      }
 
 #claire-underline {
@@ -96,9 +97,14 @@ nav ul li {
 
 #my-work {
     line-height: 1.5;
-    margin-top: -250px;
     margin-left: 35px;
 }
+
+#horiseon a img {
+    border: double white 3px;
+}
+
+
 
 @media screen and (max-width: 900px){
 }
