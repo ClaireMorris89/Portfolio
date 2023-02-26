@@ -46,33 +46,42 @@ nav ul li {
     margin-top: 35px;
  }
 
- .first {
+ #first {
     display: flex;
  }
 
 
- #about-me{
+ #about-me {
     display: block;
     line-height: 1.5;
     margin-top: 80px;
     margin-left: -500px;
+    margin-right: 80px;
  }
-
 
  h2 {
-    font-weight: 300;
- }
+    font-weight: 700;
+    border-bottom: white solid 1px;
+    margin-right: 575px
+     }
+
+#claire-underline {
+    border-bottom: white solid 1px;
+    margin-right: 5px;
+}
 
 .content {
     margin-top: 10px;
     margin-left: 40px;
-    font-weight: 600;
+    font-weight: 450;
+    text-align: justify;
 }
 
 #happy {
     line-height: 3;
     font-size: 30px;
     color: #ddbbdd;
+    font-weight: 700;
     letter-spacing: .10em;
     font-family:Georgia, 'Times New Roman', Times, serif;
     -webkit-text-stroke: 1.2px #800080;
@@ -81,10 +90,15 @@ nav ul li {
 #self-photo {
     height: 500px;
     width: 400px;
-    margin: 20px 20px;
+    margin: 40px 40px;
     border: solid white 10px;
 }
 
+#my-work {
+    line-height: 1.5;
+    margin-top: -250px;
+    margin-left: 35px;
+}
 
 @media screen and (max-width: 900px){
 }
