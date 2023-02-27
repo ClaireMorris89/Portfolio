@@ -112,16 +112,28 @@ nav ul li {
     margin-left: 48px;
     margin-bottom: 20px;
 }
+#my-work a {
+    text-decoration: none;
+}
 
-#horiseon-title{
-    text-align: center;
+
+#horiseon-title, #sephora-title, #urban-title{
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 9px;
     background-color: white;
-    font-weight: bold;
-    line-height: 1.5;
-    width: 250px;
+    height: 50px;
+    width: 160px;
     position: relative;
-    top: -40px;
-    left: -10px;
+    top: -80px;
+    left: -12px;
+    border:#800080 solid 3px;
+    font-weight: 100;
+}
+
+#my-work div::first-line{
+    font-size: 20px;
+    font-weight: 900;
 }
 
 #projects-flex {
@@ -130,37 +142,17 @@ nav ul li {
     margin-left: 30px;
 }
 
-#sephora-title {
-    text-align: center;
-    background-color: white;
-    font-weight: bold;
-    line-height: 1.5;
-    width: 250px;
-    position: relative;
-    top: -40px;
-    left: -10px;
-}
-
-#urban-title{
-    text-align: center;
-    background-color: white;
-    font-weight: bold;
-    line-height: 1.5;
-    width: 250px;
-    position: relative;
-    top: -40px;
-    left: -10px;
-}
 
 footer {
     display: flex; 
-    align-items: center;
-    margin-top: 25px;
     justify-content: center;
+    background-color: white;
     }
+ 
 
 #lets-connect {
     font-size: 20px;
+    color: #800080;
 }
 
 footer #footer-nav ul li a {
@@ -172,8 +164,37 @@ footer #footer-nav ul li a {
 }
 
 @media screen and (max-width:768px) {
-    .content {
-        margin-left: 0px;
-        width: 90%;
+    header {
+        width: 930px;
+    }
+    /*can't make navbar stack and in header*/
+    #nav-menu ul li a {
+        color: aqua;
+        padding: margin-left: -300px;
+    }
+
+    #first, #about-me, .content {
+        margin-left: 10px;
+        width: 500px;
+    }
+    #self-photo {
+        height: 250px;
+        width: 175px;
+        margin-left:-50px;
+    }
+    
+    #horiseon a img{
+        height: 300px;
+        width: 600px;
+    }
+
+    #projects-flex a img{
+        height: 200px;
+        width: 300px;
+        margin-left: -50px
+    }
+
+    #sephora-title, #urban-title {
+        left: -70px;
     }
 }
