@@ -10,6 +10,12 @@ Building this site has taught me the importance of a clear plan from the outset,
 
 This website can be used as a resume for potential employers to visit when I am wanting to showcase my work and abilities. With clear information on myself, my work, and how to contact me via several different methods.
 
+<img src="/Users/clairemorris/bootcamp/Portfolio/assets/about-me.png" alt="header, navbar, about me/">
+
+<img src="/Users/clairemorris/bootcamp/Portfolio/assets/my-work.png" alt="my work project thumbnails">
+
+<img src="/Users/clairemorris/bootcamp/Portfolio/assets/contact-me.png" alt="my contact options">
+
 ## License 
 
 MIT License
