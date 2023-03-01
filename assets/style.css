@@ -14,6 +14,7 @@ header {
     color:  #800080;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 50px;
+    width: 100%;
 }
 
 #last-name {
@@ -48,11 +49,11 @@ nav ul li {
 
  #first {
     display: flex;
+    width: auto;
  }
 
 
  #about-me {
-    display: block;
     line-height: 1.5;
     margin-top: 80px;
     margin-left: -500px;
@@ -160,78 +161,7 @@ footer #footer-nav ul li a {
     justify-content: space-evenly;
     }
 
-    @media screen and (max-width:1229px) {
-        header {
-            width: 100%;
-        }
-    
-         #nav-menu ul li a {
-            padding: -300px;
-        }
-    
-        #first , #about-me, .content{
-            margin-left: 10px;
-            width: 500px;
-        }
-    
-        #self-photo {
-            height: 400px;
-            width: 300px;
-            margin-left: 0px;
-        }
-        
-        #horiseon a img{
-            height: 400px;
-            width: 700px;
-        }
-    
-        #projects-flex a img{
-            height: 300px;
-            width: 400px;
-            margin-left: -50px
-        }
-    
-        #sephora-title, #urban-title {
-            left: -70px;
-        }
-    }  
-
-     @media screen and (max-width:1031px) {
-        header {
-            width: 100%;
-        }
-    
-         #nav-menu ul li a {
-            padding: -300px;
-        }
-    
-        #first , #about-me, .content{
-            margin-left: 10px;
-            width: 500px;
-        }
-    
-        #self-photo {
-            height: 400px;
-            width: 300px;
-            margin-left: 0px;
-        }
-        
-        #horiseon a img{
-            height: 400px;
-            width: 700px;
-        }
-    
-        #projects-flex a img{
-            height: 300px;
-            width: 400px;
-            margin-left: -50px
-        }
-    
-        #sephora-title, #urban-title {
-            left: -70px;
-        }
-    }   
-@media screen and (max-width:768px) {
+    /* @media screen and (max-width:768px) {
     header {
         width: 100%;
     } 
@@ -266,46 +196,43 @@ footer #footer-nav ul li a {
         left: -70px;
     }
 }
+*/
 
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:1051px) {
+
+    header {
+        width: 100%;
+    }
+
+    #first , #about-me, .content{
+        margin-left: 10px;
+        width:100%;
+    }
+
+    #self-photo {
+        height: 400px;
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 90px;
+    }
+   
+}
+
+@media screen and (max-width:390px){
+
+    header {
+        width: 100%;
+    }
 
     #first, #about-me, .content {
         display: flex;
         flex-direction: column;
         margin-left: 10px;
-        width: 490px
 }
-#self-photo {
-    height: 250px;
-    width: 175px;
-    margin-left: 130px;
-    /* margin-top: auto; */
-}
-
-}
-
-@media screen and (max-width:390px) {
-
-    header h1 {
-        display: flex;
-        flex-direction: column;
-    }
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #first, #about-me, .content {
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-        width: 370px;
-}
-#self-photo {
-    height: 200px;
+    #self-photo {
+    height: 150px;
     width: 175px;
     margin-left: 130px;
 }
-
 }
