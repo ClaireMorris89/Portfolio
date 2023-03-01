@@ -160,6 +160,42 @@ footer #footer-nav ul li a {
     justify-content: space-evenly;
     }
 
+    @media screen and (max-width:1229px) {
+        header {
+            width: 100%;
+        }
+    
+         #nav-menu ul li a {
+            padding: -300px;
+        }
+    
+        #first , #about-me, .content{
+            margin-left: 10px;
+            width: 500px;
+        }
+    
+        #self-photo {
+            height: 400px;
+            width: 300px;
+            margin-left: 0px;
+        }
+        
+        #horiseon a img{
+            height: 400px;
+            width: 700px;
+        }
+    
+        #projects-flex a img{
+            height: 300px;
+            width: 400px;
+            margin-left: -50px
+        }
+    
+        #sephora-title, #urban-title {
+            left: -70px;
+        }
+    }  
+
      @media screen and (max-width:1031px) {
         header {
             width: 100%;
@@ -244,7 +280,7 @@ footer #footer-nav ul li a {
     height: 250px;
     width: 175px;
     margin-left: 130px;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 }
