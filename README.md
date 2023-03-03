@@ -17,6 +17,10 @@ Website can be found at : https://clairemorris89.github.io/Portfolio/
 <img src="/Users/clairemorris/bootcamp/Portfolio/assets/my-work.png" alt="my work project thumbnails">
 
 <img src="/Users/clairemorris/bootcamp/Portfolio/assets/contact-me.png" alt="my contact options">
+ 
+##Credits 
+
+I added Urban Outfitters and Sephora's websites in "my work" section as fun placeholders until I have enough of my own work to replace these! 
 
 ## License 
 
