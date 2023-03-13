@@ -12,11 +12,11 @@ This website can be used as a resume for potential employers to visit when I am 
 
 Website can be found at : https://clairemorris89.github.io/Portfolio/
 
-<img src="/Users/clairemorris/bootcamp/Portfolio/assets/about-me.png" alt="header, navbar, about me/">
+<img width="1427" alt="contact-me" src="https://user-images.githubusercontent.com/124100820/224583951-21ac6cc3-ab4b-477d-8420-4f2a8d1caac0.png">
 
-<img width="1430" alt="my-work" src="https://user-images.githubusercontent.com/124100820/224583813-060b6023-6962-4b9a-9bb7-92ba7a3e97f1.png">
+<img width="1437" alt="about-me" src="https://user-images.githubusercontent.com/124100820/224583969-edcda28d-fa85-4a75-812b-a4e7424ecc5d.png">
 
-<img src="/Users/clairemorris/bootcamp/Portfolio/assets/contact-me.png" alt="my contact options">
+<img width="1430" alt="my-work" src="https://user-images.githubusercontent.com/124100820/224583971-01b25e8b-9fc6-4b67-bbb5-c0b728363f6a.png">
  
 ## Credits 
 
