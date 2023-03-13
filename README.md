@@ -14,7 +14,7 @@ Website can be found at : https://clairemorris89.github.io/Portfolio/
 
 <img src="/Users/clairemorris/bootcamp/Portfolio/assets/about-me.png" alt="header, navbar, about me/">
 
-<img src="/Users/clairemorris/bootcamp/Portfolio/assets/my-work.png" alt="my work project thumbnails">
+<img width="1430" alt="my-work" src="https://user-images.githubusercontent.com/124100820/224583813-060b6023-6962-4b9a-9bb7-92ba7a3e97f1.png">
 
 <img src="/Users/clairemorris/bootcamp/Portfolio/assets/contact-me.png" alt="my contact options">
  
